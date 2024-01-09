@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-md-3">
+    <app-detalle (detalleItemEvent)="agregarDetalle($event)"></app-detalle>
+  </div>
+  <button (click)="guardarPlantilla()">Guardar Plantilla</button>
+</div>
+<pre>
+  {{plantilla | json}}
+</pre>
+
+
